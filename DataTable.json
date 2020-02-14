@@ -1,5 +1,5 @@
 {
-    "$id": "https://raw.githubusercontent.com/hypar-io/Schemas/master/RoomDefinition.json",
+    "$id": "https://raw.githubusercontent.com/andrewheumann/GenerateTowerProgram/master/DataTable.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "description": "A raw table of data.",
     "title": "DataTable",
