@@ -21,9 +21,14 @@
             "type": "array",
             "items": {
                 "type": "array",
-                "items": {
-                    "type": "object"
-                   }
+                "items": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "number"
+                    }
+                ]
             }
         }
     },
