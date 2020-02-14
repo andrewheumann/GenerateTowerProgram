@@ -20,13 +20,7 @@
             "description": "Raw Tabular Data.",
             "type": "array",
             "items": {
-                "type": "array",
-                "items": [
-                    {
-                        "type": "string"
-                    }
-                ],
-                "additionalItems":  { "type": "object" }
+                "type": "array"
             }
         }
     },
