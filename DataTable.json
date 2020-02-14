@@ -1,0 +1,34 @@
+{
+    "$id": "https://raw.githubusercontent.com/hypar-io/Schemas/master/RoomDefinition.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "A raw table of data.",
+    "title": "DataTable",
+    "x-namespace": "Elements",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "https://hypar.io/Schemas/Element.json"
+        }
+    ],
+    "required": [
+        "Data",
+        "discriminator"
+    ],
+    "discriminator": "discriminator",
+    "properties": {
+        "Data": {
+            "description": "Raw Tabular Data.",
+            "type": "array",
+            "items": {
+                "type": "array",
+                "items": [
+                    {
+                        "type": "string"
+                    }
+                ],
+                "additionalItems": true
+            }
+        }
+    },
+    "additionalProperties": false
+}
